@@ -13,7 +13,7 @@ public class CircleCalc {
     }
 
     //re-write the method to calculate a circle's area using parameters
-     public static void area(double radius, double method) {
+     public static void area(double radius) {
         double area = radius;
          DecimalFormat round = new DecimalFormat("#, ##");
          JOptionPane.showMessageDialog(null, " The area is " + round.format(area));
